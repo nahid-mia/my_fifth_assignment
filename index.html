@@ -6,23 +6,24 @@
     <title>Emergency Service</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     <header class="flex justify-between mx-20 my-5">
         <section class="flex justify-between items-center gap-2">
-            <img src="assets/logo.png" alt="" class="w-11 h-11">
-            <h3 class="text-xl font-extrabold text-green-900">Emergency <br> Service</h3>
+            <img src="assets/logo.png" alt="" class="w-11 h-11" id="assets-logo">
+            <h3 class="text-xl font-extrabold text-green-900" id="assets-logo-text">Emergency <br> Service</h3>
         </section>
         <section class="flex justify-between gap-3">
-        <div class="flex justify-between gap-1 bg-green-50 px-13 items-center rounded-4xl">
+        <div class="flex justify-between gap-1 bg-green-50 px-13 items-center rounded-4xl" id="header-right-section">
             <div class="font-bold heart-number">0</div>
             <div><img src="assets/heart.png" alt="" class="w-7 h-7"></div>
         </div>
-        <div class="flex justify-between gap-1 bg-green-50 px-7 items-center rounded-4xl">
+        <div class="flex justify-between gap-1 bg-green-50 px-7 items-center rounded-4xl" id="header-right-section">
             <div class="font-bold coin-number">100</div>
             <div><img src="assets/coin.png" alt="" class="w-7 h-7"></div>
         </div>
-        <div class="bg-green-600 px-8 flex items-center rounded-4xl">
+        <div class="bg-green-600 px-8 flex items-center rounded-4xl" id="header-right-section">
             <div class="font-bold text-white"><span class="copy-number">2</span> Copy</div>
         </div>
         </section>
@@ -30,12 +31,12 @@
     <section class="flex flex-col items-center gap-2 " style="background: radial-gradient(circle, #0c6b2f 0%, #033a18 70%, #052e16 100%)">
         <div class="mt-4"><img src="assets/logo-dark.png" alt="" class="w-18 h-18"></div>
         <div class="font-bold text-3xl text-white"><h1>Emergency Service Directory</h1></div>
-        <div class="font-medium text-white mb-6"><p>Government Emergency Services at Your Fingertip-A Project by Government of the People's Republic of Bangladesh</p></div>
+        <div class="font-medium text-white mb-6 text-center"><p>Government Emergency Services at Your Fingertip-A Project by Government of the People's Republic of Bangladesh</p></div>
     </section>
-    <main class="bg-green-50 flex gap-7">
-        <section class="flex flex-col gap-7 ml-30  mb-10">
-            <div class="flex gap-7 mt-10">
-                <div class="flex flex-col gap-3 w-100 h-80 p-7 bg-white rounded-2xl shadow-lg">
+    <main class="bg-green-50 flex gap-7" id="main-section">
+        <section class="flex flex-col gap-7 ml-30  mb-10" id="main-left-section">
+            <div class="flex gap-7 mt-10" id="section-rows">
+                <div class="flex flex-col gap-3 w-100 h-80 p-7 bg-white rounded-2xl shadow-lg" id="section-card">
                     <section class="flex justify-between items-center">
                         <div class="bg-pink-100 p-3 rounded-xl"><img src="assets/emergency.png" alt="" class="w-8 h-8"></div>
                         <div><img src="assets/vecteezy_heart_1187989.png" alt="" class="heart w-6 h-6 cursor-pointer"></div>
@@ -58,7 +59,7 @@
                     </section>
                 </div>
                 <div>
-                   <div class="flex flex-col gap-3 w-100 h-80 p-7 bg-white rounded-2xl shadow-lg">
+                   <div class="flex flex-col gap-3 w-100 h-80 p-7 bg-white rounded-2xl shadow-lg" id="section-card">
                     <section class="flex justify-between items-center">
                         <div class="bg-blue-100 p-3 rounded-xl"><img src="assets/police.png" alt="" class="w-8 h-8"></div>
                         <div><img src="assets/vecteezy_heart_1187989.png" alt="" class="heart w-6 h-6 cursor-pointer"></div>
@@ -82,7 +83,7 @@
                     </div>
                 </div>
                 <div>
-                    <div class="flex flex-col gap-3 w-100 h-80 p-7 bg-white rounded-2xl shadow-lg">
+                    <div class="flex flex-col gap-3 w-100 h-80 p-7 bg-white rounded-2xl shadow-lg" id="section-card">
                     <section class="flex justify-between items-center">
                         <div class="bg-pink-100 p-3 rounded-xl"><img src="assets/fire-service.png" alt="" class="w-8 h-8"></div>
                         <div><img src="assets/vecteezy_heart_1187989.png" alt="" class="heart w-6 h-6 cursor-pointer"></div>
@@ -106,9 +107,9 @@
                     </div>
                 </div>
             </div>
-            <div class="flex gap-7">
+            <div class="flex gap-7" id="section-rows">
                 <div>
-                    <div class="flex flex-col gap-3 w-100 h-80 p-7 bg-white rounded-2xl shadow-lg">
+                    <div class="flex flex-col gap-3 w-100 h-80 p-7 bg-white rounded-2xl shadow-lg" id="section-card">
                     <section class="flex justify-between items-center">
                         <div class="bg-pink-100 p-3 rounded-xl"><img src="assets/ambulance.png" alt="" class="w-8 h-8"></div>
                         <div><img src="assets/vecteezy_heart_1187989.png" alt="" class="heart w-6 h-6 cursor-pointer"></div>
@@ -132,7 +133,7 @@
                     </div>
                 </div>
                 <div>
-                    <div class="flex flex-col gap-3 w-100 h-80 p-7 bg-white rounded-2xl shadow-lg">
+                    <div class="flex flex-col gap-3 w-100 h-80 p-7 bg-white rounded-2xl shadow-lg" id="section-card">
                     <section class="flex justify-between items-center">
                         <div class="bg-pink-100 p-3 rounded-xl"><img src="assets/emergency.png" alt="" class="w-8 h-8"></div>
                         <div><img src="assets/vecteezy_heart_1187989.png" alt="" class="heart w-6 h-6 cursor-pointer"></div>
@@ -156,7 +157,7 @@
                     </div>
                 </div>
                 <div>
-                    <div class="flex flex-col gap-3 w-100 h-80 p-7 bg-white rounded-2xl shadow-lg">
+                    <div class="flex flex-col gap-3 w-100 h-80 p-7 bg-white rounded-2xl shadow-lg" id="section-card">
                     <section class="flex justify-between items-center">
                         <div class="bg-pink-100 p-3 rounded-xl"><img src="assets/emergency.png" alt="" class="w-8 h-8"></div>
                         <div><img src="assets/vecteezy_heart_1187989.png" alt="" class="heart w-6 h-6 cursor-pointer"></div>
@@ -180,9 +181,9 @@
                     </div>
                 </div>
             </div>
-            <div class="flex gap-7">
+            <div class="flex gap-7" id="section-rows">
                 <div class=>
-                    <div class="flex flex-col gap-3 w-100 h-80 p-7 bg-white rounded-2xl shadow-lg">
+                    <div class="flex flex-col gap-3 w-100 h-80 p-7 bg-white rounded-2xl shadow-lg" id="section-card">
                     <section class="flex justify-between items-center">
                         <div class="bg-pink-100 p-3 rounded-xl"><img src="assets/emergency.png" alt="" class="w-8 h-8"></div>
                         <div><img src="assets/vecteezy_heart_1187989.png" alt="" class="heart w-6 h-6 cursor-pointer"></div>
@@ -206,7 +207,7 @@
                     </div>
                 </div>
                 <div>
-                    <div class="flex flex-col gap-3 w-100 h-80 p-7 bg-white rounded-2xl shadow-lg">
+                    <div class="flex flex-col gap-3 w-100 h-80 p-7 bg-white rounded-2xl shadow-lg" id="section-card">
                     <section class="flex justify-between items-center">
                         <div class="bg-pink-100 p-3 rounded-xl"><img src="assets/brac.png" alt="" class="w-8 h-8"></div>
                         <div><img src="assets/vecteezy_heart_1187989.png" alt="" class="heart w-6 h-6 cursor-pointer"></div>
@@ -230,7 +231,7 @@
                     </div>
                 </div>
                 <div>
-                    <div class="flex flex-col gap-3 w-100 h-80 p-7 bg-white rounded-2xl shadow-lg">
+                    <div class="flex flex-col gap-3 w-100 h-80 p-7 bg-white rounded-2xl shadow-lg" id="section-card">
                     <section class="flex justify-between items-center">
                         <div class="bg-pink-100 p-3 rounded-xl"><img src="assets/Bangladesh-Railway.png" alt="" class="w-8 h-8"></div>
                         <div><img src="assets/vecteezy_heart_1187989.png" alt="" class="heart w-6 h-6 cursor-pointer"></div>
@@ -255,7 +256,7 @@
                 </div>
             </div>
         </section>
-        <section class="flex flex-col w-90 h-254 bg-white rounded-2xl shadow-lg mt-10">
+        <section class="flex flex-col w-90 h-254 bg-white rounded-2xl shadow-lg mt-10" id="main-right-section">
             <div class="flex justify-between items-center mx-6 mt-10">
                 <div class="flex items-center">
                     <img src="assets/vecteezy_clock-png-transparent_9589193.png" alt="" class="w-8 h-8">
